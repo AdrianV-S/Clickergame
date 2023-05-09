@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JS Clicker</title>
+</head>
+<body style="background: rgba(0,0,0,0.2);">
+    <fieldset style="display:flex; flex-flow: row wrap;">
+        <div style="width: 50%;">
+            $$: <span id="balance">0</span>
+        </div>
+        <div style="width: 50%; text-align: right;">
+            Nanos: <span id="nanos">0</span>
+        </div>
+        <button id="manualClickBtn">
+            Click me!
+        </button>
+    </fieldset>
+    
+
+    <fieldset>
+        <div style="display: flex; align-items: center">
+            <div style="margin-right: 10px">
+                Click Company Lv. <span id="companyLvl">0</span>
+            </div>
+            <button id="companyLvlUpBtn">
+                Level Up!
+                (Costs: <span>10</span> $$)
+            </button>
+        </div>
+    </fieldset>
+    <fieldset>
+        <div style="display: flex; align-items: center">
+            <div style="margin-right: 10px">
+                Alien Clickers Lv. <span id="aliensLvl">0</span>
+            </div>
+            <button id="aliensLvlUpBtn">
+                Level Up!
+                (Costs: <span>5</span> nanos)
+            </button>
+        </div>
+    </fieldset>
+    <fieldset>
+        <div style="display: flex; align-items: center">
+            <div style="margin-right: auto">
+                Kiosk
+            </div>
+            <button id="nanosBtn">
+                Nanos: <span>5</span> $$
+            </button>
+            <button id="chipsBtn">
+                Chips: <span>3</span> $$
+            </button>
+            
+        </div>
+    </fieldset>
+    <script src="clicker.js"></script>
+</body>
+</html>
