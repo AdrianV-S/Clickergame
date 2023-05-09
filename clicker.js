@@ -26,7 +26,7 @@ const workers = [
         },   
     },
 ]
-//@todo worker wallets implementieren balance ersetzen!
+
 const wallets = [
     {
         name: "$$",
